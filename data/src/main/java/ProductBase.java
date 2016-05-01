@@ -40,4 +40,8 @@ public class ProductBase {
                 .filter(p -> p.getKey().getPrice() == price)
                 .collect(Collectors.toMap(p -> p.getKey(), p -> p.getValue()));
     }
+
+    public void removeProduct(){
+
+    }
 }
